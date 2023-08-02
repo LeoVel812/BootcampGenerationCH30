@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/img/star.png">
+  <title>Contact Us!</title>
+
+  <!-- extern -->
+  <!-- <link rel="stylesheet" href="./assets/styles/contact.css"> -->
+  <!-- embedded -->
+  <!-- <style>
+    h1 {
+      text-align: center;
+    }
+
+    body {
+      background-color: azure;
+    }
+  </style> -->
+</head>
+
+<body>
+  <!-- in-line -->
+  <header>
+    <h1 style="text-align:center;text-decoration: dotted;">Hi, contact us!</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="../../index.html">Home</a></li>
+      <li><a href="../../../Selectors/exercise.html">Selectors</a></li>
+      <li><a href="./us.html">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <form action="" method="post">
+
+        <fieldset class="basic-data">
+          <legend>Contact data</legend>
+          First name: <input type="text" placeholder="Jess"> <br>
+          Last name: <input type="text" placeholder="Ben"> <br>
+          Email: <input type="email" placeholder="myemail@domain.com" required> <br>
+          Phone number: <input type="tel" placeholder="12345678">
+        </fieldset>
+        <fieldset>
+          <legend>Order data</legend>
+          How many tamales do you need? <input id="tamales-needed" type="number" placeholder=""> <br>
+          How many liters of atole do you need? <input id="atole-needed" type="number" placeholder=""> <br>
+          Event date? <input type="date"> <br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Delivery data</legend>
+          <label for="sucursal">Pick up at shop <input type="radio" name="delivery-type" id="branch"> </label>
+          <label for="sucursal">Delivery <input type="radio" name="delivery-type" id="delivery"> </label>
+          Choose your branch: <select name="" id="">
+            <option value="Oaxaca Branch">Oaxaca Shop</option>
+            <option value="">Merida Shop</option>
+            <option value="">Ecatepec Shop</option>
+            <option value="">Mau's Home Shop</option>
+            <option value="">Guadalajara Shop</option>
+          </select>
+          <input list="branches">
+          <datalist id="branches">
+            <option value="Oaxaca Branch">Oaxaca Shop</option>
+            <option value="Merida Branch">Merida Shop</option>
+            <option value="Ecatepec Branch">Ecatepec Shop</option>
+            <option value="Maus Home Branch">Mau's Home Shop</option>
+            <option value="Guadalajara Branch">Guadalajara Shop</option>
+          </datalist> <br>
+
+
+          <input type="submit"><br>
+          <button type="submit">Deliver!</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

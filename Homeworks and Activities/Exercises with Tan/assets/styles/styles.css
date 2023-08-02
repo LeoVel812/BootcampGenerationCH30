@@ -1,0 +1,55 @@
+/* universal selector */
+/* * {
+  background-color: cornflowerblue;
+} */
+/* tag selector */
+body {
+  font-family: "Lumanosimo", cursive;
+}
+/* pseudoclass */
+div:hover {
+  background-color: orange;
+  /* background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg"); */
+}
+
+h1,
+h2,
+h3 {
+  color: brown;
+  margin: 0;
+}
+/* class selector */
+.top-list {
+  color: darkgoldenrod;
+}
+/* id selector  */
+#chiki-list {
+  color: chartreuse;
+}
+a:visited {
+  color: deeppink;
+}
+/* psedo element */
+p::first-letter {
+  color: red;
+}
+p::first-line {
+  color: blueviolet;
+}
+section {
+  background-color: burlywood;
+}
+table {
+  border: 4px dashed purple;
+  margin: 10px 8px 15px 9px;
+  /* margin-bottom: 10px; */
+}
+th,
+th,
+td {
+  border: 4px solid black;
+}
+nav a{
+  display: inline-block;
+  
+}
